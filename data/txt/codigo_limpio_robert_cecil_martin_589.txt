@@ -1,0 +1,1 @@
+[71]  Véase, por ejemplo, [DSL]. [JMock] es un buen ejemplo de API de Java que crea un DSL.  << 590

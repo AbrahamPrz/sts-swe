@@ -1,0 +1,1 @@
+[21]  Ejemplo de principio abierto/cerrado (OCP) [PPP02].  << 540

@@ -1,0 +1,1 @@
+[25]  La tendencia actual de los IDE de comprobar la ortografía de los comentarios será un bálsamo para los que tenemos que leer gran cantidad de código.  << 544

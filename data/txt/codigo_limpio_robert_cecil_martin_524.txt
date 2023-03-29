@@ -1,0 +1,1 @@
+[6]  Como veremos más adelante, aunque un contenedor  sea  una  lista , no conviene codificar el tipo de contenedor en el nombre.  << 525

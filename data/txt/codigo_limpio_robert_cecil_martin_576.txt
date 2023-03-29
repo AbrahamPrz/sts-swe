@@ -1,0 +1,1 @@
+[58]  Véase [CGLIB], [ASM] y [Javassist].  << 577

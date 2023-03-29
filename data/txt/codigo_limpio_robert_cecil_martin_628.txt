@@ -1,0 +1,1 @@
+[110]  En concreto, el Principio de Responsabilidad Única, el Principio Abierto/Cerrado y el Principio de Cierre Común. Véase [PPP].  << 629

@@ -1,0 +1,1 @@
+[89]  ¿Sabía que el modelo de procesos de Java no garantiza el procesamiento preventivo? Los SO modernos sí lo hacen, de modo que lo obtiene de forma gratuita. No obstante, la MVJ no lo garantiza.  << 608

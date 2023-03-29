@@ -1,0 +1,1 @@
+[90]  No es estrictamente el caso. Como la MVJ no garantiza los procesos preventivos, un determinado algoritmo puede que siempre funcione en un SO que no prevea los procesos. Lo contrario también es posible, pero por distintos motivos.  << 609

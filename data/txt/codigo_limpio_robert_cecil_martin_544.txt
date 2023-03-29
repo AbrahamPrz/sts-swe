@@ -1,0 +1,1 @@
+[26]  El cuadro muestra sigma/2 por encima y debajo de la media. Asumo que la distribución de la longitud de archivos no es normal, por lo que la desviación estándar no es matemáticamente precisa. Pero aquí el objetivo no es la precisión, sino la sensación.  << 545

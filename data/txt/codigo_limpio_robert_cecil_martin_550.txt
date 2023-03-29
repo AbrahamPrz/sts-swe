@@ -1,0 +1,1 @@
+[32]  En ocasiones se denomina Feature Envy (Envidia de las características), de [Refactoring].  << 551
