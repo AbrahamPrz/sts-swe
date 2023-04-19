@@ -31,7 +31,9 @@ def main(args=None):
                 # escribir el texto en un archivo txt
                 txt_file = f'{pdf[:-4]}_{page_num}.txt'
                 with open(path.join(TXT_DIR, txt_file), 'w', encoding='utf-8') as f:
-                    f.write(text)
+                    # formatear el texto para normalizarlo
+                    formatted_text = text.replace('\n', ' ').lower().replace('  ', ' ')
+                    f.write(formatted_text)
                     page_num += 1
 
 
