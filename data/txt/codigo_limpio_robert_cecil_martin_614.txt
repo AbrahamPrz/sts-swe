@@ -1,1 +1,1 @@
-[96]  Una solución mejor sería que el Javadoc presentara todos los comentarios con formato previo, para que tengan el mismo aspecto en el código y en el documento.  << 615
+[96] una solución mejor sería que el javadoc presentara todos los comentarios con formato previo, para que tengan el mismo aspecto en el código y en el documento. << 615

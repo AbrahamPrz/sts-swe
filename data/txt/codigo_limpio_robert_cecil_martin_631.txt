@@ -1,1 +1,1 @@
-[113]  Es distinto saber cómo funciona el código y saber si el algoritmo se encargará de realizar la tarea para la que se necesita. Es habitual desconocer si un algoritmo es el adecuado. Desconocer lo que hace el código es indolencia.  << 632
+[113] es distinto saber cómo funciona el código y saber si el algoritmo se encargará de realizar la tarea para la que se necesita. es habitual desconocer si un algoritmo es el adecuado. desconocer lo que hace el código es indolencia. << 632

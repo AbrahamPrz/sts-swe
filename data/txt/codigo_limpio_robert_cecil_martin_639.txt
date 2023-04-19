@@ -1,1 +1,1 @@
-[121]  Por ejemplo, alguien añade un resultado de depuración y el problema desaparece. El código de depuración corrige el problema, pero permanece en el sistema.  << 640
+[121] por ejemplo, alguien añade un resultado de depuración y el problema desaparece. el código de depuración corrige el problema, pero permanece en el sistema. << 640

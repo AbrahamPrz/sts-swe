@@ -1,1 +1,1 @@
-[20]  Existen algunos que creen que pueden evitar volver a compilar e implementar, y nos hemos encargado de ellos.  << 539
+[20] existen algunos que creen que pueden evitar volver a compilar e implementar, y nos hemos encargado de ellos. << 539

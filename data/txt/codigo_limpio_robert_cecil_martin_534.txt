@@ -1,1 +1,1 @@
-[16]  a. http://en.wikipedia.org/wiki/Single_responsibility_principle b. http://www.objectmentor.com/resources/articles/srp.pdf  << 535
+[16] a. http://en.wikipedia.org/wiki/single_responsibility_principle b. http://www.objectmentor.com/resources/articles/srp.pdf << 535

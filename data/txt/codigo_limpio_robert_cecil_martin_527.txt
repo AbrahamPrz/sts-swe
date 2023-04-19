@@ -1,1 +1,1 @@
-[9]  http://java.sun.com/products/javabeans/docs/spec.html.  << 528
+[9] http://java.sun.com/products/javabeans/docs/spec.html. << 528

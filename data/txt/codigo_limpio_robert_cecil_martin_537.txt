@@ -1,1 +1,1 @@
-[19]  Terminé la refactorización de un módulo que usaba la forma dinámica. Conseguí convertir el módulo  outputStream  en un campo de la clase y las invocaciones de  writeField  a formato monódico. El resultado fue mucho más limpio.  << 538
+[19] terminé la refactorización de un módulo que usaba la forma dinámica. conseguí convertir el módulo outputstream en un campo de la clase y las invocaciones de writefield a formato monódico. el resultado fue mucho más limpio. << 538

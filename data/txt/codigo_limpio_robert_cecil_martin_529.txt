@@ -1,1 +1,1 @@
-[11]  Una herramienta de código abierto para probar unidades para Java ( www.junit.org ).  << 530
+[11] una herramienta de código abierto para probar unidades para java ( www.junit.org ). << 530

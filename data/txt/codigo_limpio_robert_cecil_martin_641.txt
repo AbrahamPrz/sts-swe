@@ -1,1 +1,1 @@
-[123]  http://www.haifa.ibm.com/projects/verification/contest/index.html  << 642
+[123] http://www.haifa.ibm.com/projects/verification/contest/index.html << 642

@@ -1,1 +1,1 @@
-[66]  Véase [AspectJ] y [Colyer].  << 585
+[66] véase [aspectj] y [colyer]. << 585

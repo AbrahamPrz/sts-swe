@@ -1,1 +1,1 @@
-[120]  De hecho, la interfaz  Iterator  es incompatible con subprocesos por naturaleza. No se diseñó para usar varios subprocesos, de modo que no debería sorprenderle.  << 639
+[120] de hecho, la interfaz iterator es incompatible con subprocesos por naturaleza. no se diseñó para usar varios subprocesos, de modo que no debería sorprenderle. << 639

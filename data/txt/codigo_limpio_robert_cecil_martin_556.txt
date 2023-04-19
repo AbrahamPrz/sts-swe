@@ -1,1 +1,1 @@
-[38]  http://fitnesse.org/FitNesse.AcceptanceTestPatterns.  << 557
+[38] http://fitnesse.org/fitnesse.acceptancetestpatterns. << 557

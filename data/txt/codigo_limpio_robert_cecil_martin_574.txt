@@ -1,1 +1,1 @@
-[56]  Consulte [AOSD] si necesita información general sobre aspectos y [AspectJ] y [Colyer] para Información concreta de AspectJ.  << 575
+[56] consulte [aosd] si necesita información general sobre aspectos y [aspectj] y [colyer] para información concreta de aspectj. << 575

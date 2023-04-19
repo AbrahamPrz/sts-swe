@@ -1,1 +1,1 @@
-[7]  Imagine que se crea una variable con el nombre  klass  sólo porque el nombre  class  se ha usado en otro elemento.  << 526
+[7] imagine que se crea una variable con el nombre klass sólo porque el nombre class se ha usado en otro elemento. << 526

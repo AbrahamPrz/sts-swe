@@ -1,1 +1,1 @@
-[Knuth92] :  Literate Programming , Donald E. Knuth, Center for the Study of language and Information, Leland Stanford Junior University, 1992. 204
+[knuth92] : literate programming , donald e. knuth, center for the study of language and information, leland stanford junior university, 1992. 204

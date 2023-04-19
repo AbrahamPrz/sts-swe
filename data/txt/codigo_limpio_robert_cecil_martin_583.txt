@@ -1,1 +1,1 @@
-[65]  Adaptado de http://www.onjava.com/pub/a/onjava/2006/05/17/standardizing-with-ejb3- java-persistence-api.html.  << 584
+[65] adaptado de http://www.onjava.com/pub/a/onjava/2006/05/17/standardizing-with-ejb3- java-persistence-api.html. << 584

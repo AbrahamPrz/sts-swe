@@ -1,1 +1,1 @@
-[86]  Una sección crítica es cualquier sección de código que debe protegerse de usos simultáneos por parte del programa para que sea correcta.  << 605
+[86] una sección crítica es cualquier sección de código que debe protegerse de usos simultáneos por parte del programa para que sea correcta. << 605

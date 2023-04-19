@@ -1,1 +1,1 @@
-14 Refinamiento sucesivo Caso práctico de un analizador de argumentos de línea de comandos Este capítulo es un caso práctico de refinamiento sucesivo. Veremos un 255
+14 refinamiento sucesivo caso práctico de un analizador de argumentos de línea de comandos este capítulo es un caso práctico de refinamiento sucesivo. veremos un 255

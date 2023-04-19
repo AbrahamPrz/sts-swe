@@ -1,1 +1,1 @@
-[94]   JUnit Pocket Guide , Kent Beck,  O’Reilly.  2004. p. 43.  << 613
+[94]  junit pocket guide , kent beck, o’reilly. 2004. p. 43. << 613

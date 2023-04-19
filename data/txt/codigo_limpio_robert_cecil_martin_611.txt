@@ -1,1 +1,1 @@
-[93]  Para evitar este tipo de sorpresas, añadí una nueva prueba de unidad que invocaba todas las pruebas de FitNesse.  << 612
+[93] para evitar este tipo de sorpresas, añadí una nueva prueba de unidad que invocaba todas las pruebas de fitnesse. << 612

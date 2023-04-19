@@ -1,1 +1,1 @@
-[92]  Hace poco modifiqué este módulo para Ruby. Tenía una séptima parte del tamaño original y una mejor estructura.  << 611
+[92] hace poco modifiqué este módulo para ruby. tenía una séptima parte del tamaño original y una mejor estructura. << 611

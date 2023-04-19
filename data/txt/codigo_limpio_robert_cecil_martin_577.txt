@@ -1,1 +1,1 @@
-[59]  Si necesita ejemplos más detallados de la API Proxy y ejemplos de uso, consulte [Goetz].  << 578
+[59] si necesita ejemplos más detallados de la api proxy y ejemplos de uso, consulte [goetz]. << 578

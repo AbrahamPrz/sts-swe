@@ -1,1 +1,1 @@
-[105]  http://es.wikipedia.org/wiki/Principio_de_la_Mínima_Sorpresa  << 624
+[105] http://es.wikipedia.org/wiki/principio_de_la_mínima_sorpresa << 624

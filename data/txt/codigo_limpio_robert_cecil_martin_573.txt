@@ -1,1 +1,1 @@
-[55]  Sistema de administración de base de datos.  << 574
+[55] sistema de administración de base de datos. << 574

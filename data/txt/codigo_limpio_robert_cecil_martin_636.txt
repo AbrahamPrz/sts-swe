@@ -1,1 +1,1 @@
-[118]  Puede comprobar personalmente el código antes y después, y revisar las versiones con y sin subprocesos, que veremos en un apartado posterior.  << 637
+[118] puede comprobar personalmente el código antes y después, y revisar las versiones con y sin subprocesos, que veremos en un apartado posterior. << 637
