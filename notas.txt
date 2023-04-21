@@ -1,0 +1,7 @@
+El dataset puede ser englobado en una lista donde cada elemento sea una oracion del libro.
+
+Estas oraciones pueden ser comparadas con el modelo elegido, pero se compararian oraciones totalmente aleatorias si se comparan, por ejemplo, oracion n con oracion n+1.
+
+Para evitar esto se podrian calificar las oraciones del texto con algun modelo con base al sentimiento de la oracion, por ejemplo, o un modelo de clasificacion de oraciones por categoria.
+
+Una vez clasificadas las oraciones se puede comparar una oracion con otra de la misma categoria para buscar su similitud y usar estos resultados en el fine-tuning del modelo.
