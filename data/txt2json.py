@@ -1,6 +1,9 @@
 from tqdm.auto import tqdm
 from os import makedirs, listdir, path
 import json
+import spacy
+
+nlp = spacy.load("es_dep_news_trf")
 
 
 BASE_DIR = path.dirname(path.realpath(__file__))
@@ -22,6 +25,12 @@ def main(args=None):
         with open(path.join(JSON_DIR, json_file), 'w', encoding='utf-8') as f:
             json.dump(oraciones, f)
 
+
+def get_sentences(args=None):
+    nlp = spacy.load("en_core_web_sm")
+    doc = nlp('This is the first sentence. This is the second sentence.')
+    for sent in doc.sents:
+        print(sent)
 
 if __name__ == '__main__':
     main()
