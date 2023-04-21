@@ -17,12 +17,14 @@ CHECKPOINT = 'symanto/sn-xlm-roberta-base-snli-mnli-anli-xnli'
 
 
 def main(args=None):
+    data = []
     tokenizer = AutoTokenizer.from_pretrained(CHECKPOINT)
     for file in listdir(TXT_DIR):
         if file.endswith('.txt'):
             text = open(path.join(TXT_DIR, file), 'r').read()
-            tokens = tokenizer.tokenize(text)
-            print(tokens)
+            data.append(text)
+            # tokens = tokenizer.tokenize(text)
+            # print(tokens)
     
 
 if __name__ == '__main__':
