@@ -31,7 +31,12 @@ def loading_dataset(args=None):
     print(raw_train_dataset[0])
     
     
-    print(raw_train_dataset.features)
+    print(raw_datasets["train"]["sentence1"]) # Todas las oraciones de un archiv txt
+
+
+def tokenize_function(example):
+    pass
+    # return tokenizer(example["sentence1"], example["sentence2"], truncation=True)
 
 
 if __name__ == '__main__':
