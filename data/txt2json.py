@@ -15,6 +15,27 @@ JSON_DIR = path.join(BASE_DIR, "json")
 # Encontrar mejor manera de separar las oraciones en lugar de usar el punto como separador.
 # Tambien usar SpaCy y un modelo de STS de huggingface para encontrar oraciones con un contexto similar.
 # El texto base para comparar el contexto de las oraciones podria estar formado de varias oraciones previamente seleccionadas para pertenecer al tema de ingenieria de software.
+# 
+# Considerar que HuggingFace permite categorizar oraciones en base a un tema.
+# Tambien considerar que es recomendable analizar si una oracion esta completa o no segun el siguiente ejemplo:
+# import spacy
+# # Load the Spanish language model
+# nlp = spacy.load('es_dep_news_trf')
+
+# # Define a sample sentence
+# text = "El rápido zorro marrón"
+
+# # Process the text with spaCy
+# doc = nlp(text)
+
+# # Check if the last token in the sentence is a noun, verb, adjective, or adverb
+# last_token = doc[-1]
+# if last_token.pos_ in ['NOUN', 'VERB', 'ADJ', 'ADV']:
+#     print("The sentence is complete.")
+# else:
+#     print("The sentence is incomplete.")
+
+
 def main(args=None):
     makedirs(JSON_DIR, exist_ok=True)
     # leer cada archivo txt en el directorio txt
