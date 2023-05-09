@@ -30,10 +30,13 @@ def main(args=None):
                 text = pdf_reader.pages[page].extract_text().replace('\n', ' ')
                 # escribir el texto en un archivo txt
                 txt_file = f'{pdf[:-4]}_{page_num}.txt'
-                with open(path.join(TXT_DIR, txt_file), 'w', encoding='utf-8') as f:
+                # generar un archivo txt que contenga el texto de todos los archivos txt de un mismo pdf
+                main_txt_file = f'{pdf[:-4]}.txt'
+                with open(path.join(TXT_DIR, txt_file), 'w', encoding='utf-8') as f, open(path.join(TXT_DIR, main_txt_file), 'a', encoding='utf-8') as mwf:
                     # formatear el texto para normalizarlo
                     formatted_text = text.replace('\n', ' ').lower().replace('  ', ' ')
                     f.write(formatted_text)
+                    mwf.write(formatted_text)
                     page_num += 1
 
 
