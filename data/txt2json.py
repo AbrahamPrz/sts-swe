@@ -34,6 +34,8 @@ JSON_DIR = path.join(BASE_DIR, "json")
 #     print("The sentence is complete.")
 # else:
 #     print("The sentence is incomplete.")
+# 
+# USAR GPT PARA OBTENER LAS ORACIONES A PARTIR DEL TEXTO? OPCION A TOMAR EN CUENTA.
 
 
 def main(args=None):
