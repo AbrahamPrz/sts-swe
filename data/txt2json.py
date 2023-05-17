@@ -88,6 +88,10 @@ def clean_sentences(sentences):
     return clear_sentences
 
 
+def meaningful_sentences(sentences):
+    pass
+
+
 if __name__ == '__main__':
     sentences = get_sentences()
     clear_sentences = clean_sentences(sentences)
