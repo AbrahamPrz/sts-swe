@@ -3,6 +3,7 @@ from tqdm.auto import tqdm
 from os import makedirs, listdir, path
 import json
 import spacy
+import nltk
 
 nlp = spacy.load("es_dep_news_trf")
 
@@ -54,42 +55,41 @@ def main(args=None):
 def get_sentences(args=None):
     # usar una expresion regular para encontrar los archivos txt que no terminan con _{digito}.txt
     regex = re.compile(r'_[0-9]+.txt')
+    sentences = []
+    # Se usan los archivos de texto con los libros completos, no los que son pagina por pagina.
     txt_files = [f for f in listdir(TXT_DIR) if f.lower().endswith('.txt') and not regex.search(f)]
+    
+    for txt_file in txt_files:
+        with open(TXT_DIR + "/" + txt_file, 'r') as file:
+            texto = file.read()
+        # nltk proporciona una funcion para separar un texto en oraciones.
+        oraciones = nltk.sent_tokenize(texto) 
 
-    # # obtener el archivo txt en txt_files con el mayor numero de caracteres
-    # max_file = max(txt_files, key=lambda x: len(open(path.join(TXT_DIR, x), 'r', encoding='utf-8').read()))
-    # nlp.max_length = len(open(path.join(TXT_DIR, max_file), 'r', encoding='utf-8').read())
-
-    batch_size = 10000  # Set the batch size to a reasonable value
-    last_words = ""  # Initialize last_words to an empty string
-
-    for file in tqdm(txt_files):
-        with open(path.join(TXT_DIR, file), 'r', encoding='utf-8') as f:
-            text = f.read()
-
-        # Split the text into smaller chunks
-        chunks = [text[i:i+batch_size] for i in range(0, len(text), batch_size)]
-
-        # Process each chunk separately
-        for i, chunk in enumerate(nlp.pipe(chunks)):
-            # If this is not the first chunk, prepend the last_words to the current chunk
-            if i > 0:
-                chunk = nlp(last_words + chunk.text)
-
-            # Update last_words to the last few words of the current chunk
-            last_words = " ".join(chunk.text.split()[-10:])
-
-            # Extract the sentences from the chunk
-            sentences = [sent.text.strip() for sent in chunk.sents if sent.text.strip()]
-
-            # Print the sentences for this chunk
-            print(sentences)
+        for oracion in oraciones:
+            sentences.append(oracion)
+        
+        return sentences
 
 
+def clean_sentences(sentences):
+    # Lista de las oraciones limpias.
+    clear_sentences = []
+    for sentence in tqdm(sentences):
+        doc = nlp(sentence)
+        tokens_limpios = []
+        
+        for token in doc:
+            if not token.is_punct and not token.like_num:
+                tokens_limpios.append(token.text.strip())
 
+        clear_sentence = ' '.join(tokens_limpios)
+        clear_sentences.append(clear_sentence) if clear_sentence.strip() != '' else None
+
+    return clear_sentences
 
 
 if __name__ == '__main__':
-    # main()
-    # print(TXT_DIR)
-    get_sentences()
+    sentences = get_sentences()
+    clear_sentences = clean_sentences(sentences)
+    for sentence in clear_sentences:
+        print(sentence)
