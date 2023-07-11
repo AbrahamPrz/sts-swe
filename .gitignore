@@ -1,3 +1,7 @@
+# Custom .gitignore for this project
+# Text files from data/txt/ directory
+data/txt/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
