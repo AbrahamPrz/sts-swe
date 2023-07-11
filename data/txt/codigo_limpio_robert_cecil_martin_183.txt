@@ -1,1 +1,0 @@
-producción. mantenga limpias las pruebas. bibliografía [rspec] : rspec: behavior driven development for ruby programmers , aslak hellesay, david chelimsky, pragmatic bookshelf, 2008. [gof] : design patterns: elements of reusable object oriented software , gamma et al., addison-wesley, 1996. 184

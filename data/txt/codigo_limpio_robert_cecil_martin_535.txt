@@ -1,1 +1,0 @@
-[17] a. http://en.wikipedia.org/wiki/open/closed_principle b. http://www.objectmentor.com/resources/articles/ocp.pdf << 536

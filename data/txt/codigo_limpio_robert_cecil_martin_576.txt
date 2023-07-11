@@ -1,1 +1,0 @@
-[58] véase [cglib], [asm] y [javassist]. << 577

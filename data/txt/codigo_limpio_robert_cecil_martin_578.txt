@@ -1,1 +1,0 @@
-[60] aop se suele confundir con técnicas empleadas para implementarlo, como la intercepción y envoltorio de métodos a través de proxies . el verdadero valor de un sistema aop es la capacidad para especificar comportamientos del sistema de forma concisa y modular. << 579

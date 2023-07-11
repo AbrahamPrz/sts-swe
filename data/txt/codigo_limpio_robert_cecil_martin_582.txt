@@ -1,1 +1,0 @@
-[64] el ejemplo se puede simplificar mediante mecanismos que usen convenciones y anotaciones de java 5 para reducir la cantidad necesaria de lógica de conexión explícita. << 583

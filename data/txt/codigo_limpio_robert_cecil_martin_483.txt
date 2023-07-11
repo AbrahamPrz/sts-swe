@@ -1,1 +1,0 @@
-createinstance(new gregoriancalendar(2006,0,1).gettime())); 452 } 453 454 public static void main(string[] args) { 455 junit.textui.testrunner.run(bobsserialdatetest.class); 456 } 457 } 484

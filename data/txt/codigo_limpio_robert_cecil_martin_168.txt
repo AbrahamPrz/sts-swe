@@ -1,1 +1,0 @@
-9 pruebas de unidad nuestra profesión ha evolucionado mucho en los últimos 10 años. en 1997 nadie había oído hablar del desarrollo guiado por pruebas (dgp). para la mayoría, las pruebas de unidad eran pequeños fragmentos de código 169

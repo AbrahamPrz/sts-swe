@@ -1,1 +1,0 @@
-17 síntomas y heurística en su magnífico libro refactoring [104] , martin fowler identifica diversos síntomas de código ( smells ). la lista que mostramos a continuación incluye muchos de los síntomas de martin y otros propios. también contiene otras perlas y heurística que suelo emplear en mi trabajo. 359

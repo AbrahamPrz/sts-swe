@@ -1,1 +1,0 @@
-[8] uncle bob solía hacerlo en c++ pero ha abandonado esta práctica ya que no es necesario en los ide modernos. << 527

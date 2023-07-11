@@ -1,1 +1,0 @@
-[67] no confundir con la práctica de diseño anticipado. bduf es la práctica de diseñar todo por adelantado antes de implementar nada. << 586

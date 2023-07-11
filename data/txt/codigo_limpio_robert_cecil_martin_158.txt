@@ -1,1 +1,0 @@
-8 límites por james grenning no es habitual que controlemos todo el software de nuestros sistemas. en ocasiones, adquirimos paquetes de terceros o usamos código abierto. en otros casos, dependemos de equipos de nuestra propia empresa para producir 159

@@ -1,1 +1,0 @@
-[110] en concreto, el principio de responsabilidad única, el principio abierto/cerrado y el principio de cierre común. véase [ppp]. << 629

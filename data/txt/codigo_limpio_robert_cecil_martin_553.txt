@@ -1,1 +1,0 @@
-[35] véase el patrón del adaptador en [gof]. << 554

@@ -1,1 +1,0 @@
-[71] véase, por ejemplo, [dsl]. [jmock] es un buen ejemplo de api de java que crea un dsl. << 590

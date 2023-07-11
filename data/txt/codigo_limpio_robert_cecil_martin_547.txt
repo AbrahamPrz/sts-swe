@@ -1,1 +1,0 @@
-[29] siempre existe una solución conocida por los diseñadores orientados a objetos con experiencia: visitor o entrega dual, por ejemplo. pero son técnicas costosas y suelen devolver la estructura de un programa por procedimientos. << 548

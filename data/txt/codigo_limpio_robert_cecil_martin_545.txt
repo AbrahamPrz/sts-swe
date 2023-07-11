@@ -1,1 +1,0 @@
-[27] es lo contrario a lo que sucede en lenguajes como pascal, c y c++ que obligan a definir, o al menos a declarar, las funciones antes de usarlas. << 546

@@ -1,1 +1,0 @@
-software , gamma et al., addison-wesley, 1996. [simmons04] : hardcore java , robert simmons, jr., o’reilly, 2004. [refactoring] : refactoring: improving the design of existing code , martin fowler et al., addison-wesley, 1999. [beck97] : smalltalk best practice patterns , kent beck, prentice hall, 1997. 358

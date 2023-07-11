@@ -1,1 +1,0 @@
-[13] el lenguaje logo usaba la palabra clave to al igual que ruby y python usaban def . por tanto, todas las funciones comenzaban por to , lo que tenía un efecto interesante en cómo se diseñaban. << 532
